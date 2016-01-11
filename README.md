@@ -1,10 +1,10 @@
 # quickCommit
 A shell script that quickly adds all changes to git, commits, and pushes in one command
 
-Setup:
+**Setup:**
 enter command in terminal in directory of file: chmod +x quickcommit (or chmod 0777 quickcommit)
 
-To run:
+**To run:**
 if script is in same directory as repo: ./quickcommit upstream branch (ex: ./quickcommit "commit message" origin master)
 if script is in home directory: ~./quickcommit upstream branch (ex: ~./quickcommit "commit message" origin master)
 
