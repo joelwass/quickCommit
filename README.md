@@ -18,7 +18,7 @@ If you want to be able to run script universally in all directories:
   
 2) Add Path into .bash_profile
   - *open ~/.bash_profile* (if you don't have a bash profile, http://apple.stackexchange.com/questions/99835/how-to-create-bash-profile-and-profile)
-  - in bash_profile, type *export PATH="$PATH:$HOME/path/to/quickcommit/script"*
+  - in bash_profile, type export PATH="$PATH:$HOME/path/to/quickcommit/script"
   - save bash_profile
   - in terminal, type *. ./.bash_profile*
   - in terminal, type *source ~/.bash_profile*
