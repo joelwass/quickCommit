@@ -12,13 +12,16 @@ if script is in home directory: *~./quickcommit "commit message" upstream branch
 
 If you want to be able to run script universally in all directories:
 
-1) Copy script into /usr/local/bin/ 
+1) ONLY USE OTHER OPTIONS IF THIS DOESN'T WORK
+  - within directory of downloaded script, in terminal, type: *sudo install quickcommit /usr/local/bin/quickcommit*
+
+2) Copy script into /usr/local/bin/ 
   - cd into /usr/local/bin/
   - in terminal, type: *sudo cp -p /Path/To/quickcommit/Script ./*
   - restart terminal
   - you can now run using quickcommit from any repo directory (ex: *quickcommit "commit message" origin master*)
   
-2) Add Path into .bash_profile
+3) Add Path into .bash_profile
   - in terminal, type: *open ~/.bash_profile* (if you don't have a bash profile, http://apple.stackexchange.com/questions/99835/how-to-create-bash-profile-and-profile)
   - in bash_profile, type: export PATH="$PATH:$HOME/path/to/quickcommit/script" (DON'T FORGET TO CHANGE THE PATH/TO/QUICKCOMMIT/SCRIPT TO YOUR ACTUAL PATH TO THE SCRIPT)
   - save bash_profile
