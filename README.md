@@ -1,5 +1,5 @@
 # quickCommit
-A shell script that quickly adds all changes to git, commits, and pushes in one command
+A shell script that quickly adds all changes, commits, and pushes to git in one command
 
 **Setup:**
 enter command in terminal in directory of file: *chmod +x quickcommit* (or *chmod 0777 quickcommit*)
