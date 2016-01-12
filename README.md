@@ -4,16 +4,24 @@ A shell script that quickly adds all changes, commits, and pushes to git in one 
 **Setup:**
 enter command in terminal in directory of file: *chmod +x quickcommit* (or *chmod 0777 quickcommit*)
 
+**To Install:**
+1) sudo install
+  - within directory of downloaded script, in terminal, type: *sudo install quickcommit /usr/local/bin/quickcommit*
+  
 **To run:**
 
-if script is in same directory as repo: *./quickcommit "commit message" upstream branch* (ex: *./quickcommit "commit message" origin master*)
+if installed succesfully using previous command:
+you can run using quickcommit from any repo directory (ex: *quickcommit "commit message" origin master*)
 
-if script is in home directory: *~./quickcommit "commit message" upstream branch* (ex: *~./quickcommit "commit message" origin master*)
 
-If you want to be able to run script universally in all directories:
 
-1) ONLY USE OTHER OPTIONS IF THIS DOESN'T WORK
-  - within directory of downloaded script, in terminal, type: *sudo install quickcommit /usr/local/bin/quickcommit*
+NOTES if installation fails:
+
+if script is in same directory as repo you can run it without installing: *./quickcommit "commit message" upstream branch* (ex: *./quickcommit "commit message" origin master*)
+
+if script is in home directory you can run it without installing: *~./quickcommit "commit message" upstream branch* (ex: *~./quickcommit "commit message" origin master*)
+
+If you want to be able to run script universally in all directories and had trouble installing using previous methods then try:
 
 2) Copy script into /usr/local/bin/ 
   - cd into /usr/local/bin/
