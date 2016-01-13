@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "attempting to breach your files"
+echo "just kidding, installing quickcommit"
+
+function install
+{
+  sudo install quickcommit /usr/local/bin/quickcommit
+}
+
+install
